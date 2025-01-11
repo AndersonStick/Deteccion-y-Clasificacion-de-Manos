@@ -3,7 +3,7 @@ import mediapipe as mp
 import os
 
 #----------------------------- Creamos la carpeta donde almacenaremos el entrenamiento ---------------------------------
-nombre = 'Mano_Izquierda'
+nombre = 'Letra_A'
 direccion = 'D/SEMESTRE7/Dedos/Fotos/Validacion'
 carpeta = direccion + '/' + nombre
 if not os.path.exists(carpeta):

@@ -5,8 +5,11 @@ import numpy as np
 from keras_preprocessing.image import load_img, img_to_array
 from keras.models import load_model
 
-modelo = 'C:/Users/santi/Desktop/Universidad/9 Semestre/Vision Python/Manos/Modelo.h5'
-peso =  'C:/Users/santi/Desktop/Universidad/9 Semestre/Vision Python/Manos/pesos.h5'
+
+r'D:\SEMESTRE7\Dedos\Modelo.h5'
+
+modelo = r'D:\SEMESTRE7\Dedos\Modelo.h5'
+peso =  r'D:\SEMESTRE7\Dedos\pesos.h5'
 cnn = load_model(modelo)  #Cargamos el modelo
 cnn.load_weights(peso)  #Cargamos los pesos
 

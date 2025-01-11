@@ -1,1 +1,4 @@
 venv/
+# Excluir archivos grandes del modelo
+*.h5
+*.keras
