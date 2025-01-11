@@ -8,8 +8,8 @@ mp_drawing = mp.solutions.drawing_utils
 hands = mp_hands.Hands(static_image_mode=True, max_num_hands=1, min_detection_confidence=0.5)
 
 # Carpeta de entrada y salida
-input_folder = r"C:\Users\57322\Downloads\sin_recortar_A"  # Carpeta con imágenes sin recortar
-output_folder = r"D:\SEMESTRE7\Dedos\Fotos\Validacion\Letra_A"  # Carpeta para guardar imágenes recortadas
+input_folder = r"C:\Users\57322\Downloads\sin_recortar\U"  # Carpeta con imágenes sin recortar
+output_folder = r"D:\SEMESTRE7\Dedos\Fotos\Validacion\Letra_U"  # Carpeta para guardar imágenes recortadas
 
 # Crear carpeta de salida si no existe
 if not os.path.exists(output_folder):

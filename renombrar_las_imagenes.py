@@ -1,7 +1,7 @@
 import os
 
 # Carpeta de salida donde están las imágenes recortadas
-output_folder = r"D:\SEMESTRE7\Dedos\Fotos\Validacion\Letra_A"
+output_folder = r"D:\SEMESTRE7\Dedos\Fotos\Validacion\Letra_U"
 
 # Obtener la lista de archivos en la carpeta de salida
 files = os.listdir(output_folder)

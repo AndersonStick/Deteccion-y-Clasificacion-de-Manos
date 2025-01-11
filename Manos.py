@@ -4,7 +4,7 @@ import os
 
 #----------------------------- Creamos la carpeta donde almacenaremos el entrenamiento ---------------------------------
 nombre = 'Mano_Izquierda'
-direccion = 'C:/Users/santi/Desktop/Universidad/9 Semestre/Vision Python/Manos/Fotos/Validacion'
+direccion = 'D/SEMESTRE7/Dedos/Fotos/Validacion'
 carpeta = direccion + '/' + nombre
 if not os.path.exists(carpeta):
     print('Carpeta creada: ',carpeta)
